@@ -20,7 +20,7 @@ This dataset was obtained from [Kaggle Credit Card Fraud Detection](https://www.
 2. The dataset is highly unbalanced. Legit transaction were more than Fraudulent
 3. I took a sample of Legit transactions (492), so I can balance it with Fraudulent transactions(492)
 4. I concatenated my sample data(Legit transaction) and Fraudulent to generate a new table
-5. Prepared the data
+5. Prepared the data. Splitting it into Features & Target
 6. Split the data into Training and Test data
 7. Trained the model using Logistic Regression(Ideal for binary classification problem)
 8. Trained data had accuracy score of 0.9326556543837357, while Test had accuracy of 0.9187817258883249
